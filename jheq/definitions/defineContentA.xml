@@ -1,0 +1,28 @@
+<edu.ucsc.cross.jheq.core.feature.ContentDefinition>
+  <globalVariableGenerator>
+    <entry>
+      <string>globalParameters</string>
+      <string>bouncingball.Parameters</string>
+    </entry>
+  </globalVariableGenerator>
+  <systemDefiners>
+    <entry>
+      <string>system1</string>
+      <edu.ucsc.cross.jheq.core.feature.SystemDefinition>
+        <flowMapClass>bouncingball.F</flowMapClass>
+        <jumpMapClass>bouncingball.G</jumpMapClass>
+        <flowSetClass>bouncingball.C</flowSetClass>
+        <jumpSetClass>bouncingball.D</jumpSetClass>
+        <stateClass>bouncingball.State</stateClass>
+        <parameterClasses>
+        </parameterClasses>
+        <sharedParameters>
+          <string>globalParameters</string>
+        </sharedParameters>
+      </edu.ucsc.cross.jheq.core.feature.SystemDefinition>
+    </entry>
+  </systemDefiners>
+  <postProcess>
+   </postProcess>
+  <splitFiles>true</splitFiles>
+</edu.ucsc.cross.jheq.core.feature.ContentDefinition>

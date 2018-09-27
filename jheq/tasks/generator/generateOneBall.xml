@@ -1,0 +1,27 @@
+<edu.ucsc.cross.jheq.core.feature.ContentGenerator>
+  <globalDataGenerators>
+    <entry>
+      <string>globalParameters</string>
+      <edu.ucsc.cross.jheq.core.feature.ObjectGenerator>
+        <filePathToLoadFrom>resources/tasks/generator/generateOneBall/globalParameters.xml</filePathToLoadFrom>
+      </edu.ucsc.cross.jheq.core.feature.ObjectGenerator>
+    </entry>
+  </globalDataGenerators>
+  <systemGenerators>
+    <entry>
+      <string>system1</string>
+      <edu.ucsc.cross.jheq.core.feature.SystemGenerator>
+        <filePath>resources/tasks/generator/generateOneBall/system1.xml</filePath>
+      </edu.ucsc.cross.jheq.core.feature.SystemGenerator>
+    </entry>
+  </systemGenerators>
+  <vertices>
+    <string>system1</string>
+  </vertices>
+  <adjacency>
+    <int-array>
+      <int>0</int>
+    </int-array>
+  </adjacency>
+  <postProcess/>
+</edu.ucsc.cross.jheq.core.feature.ContentGenerator>

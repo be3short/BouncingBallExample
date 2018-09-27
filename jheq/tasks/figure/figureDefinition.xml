@@ -1,0 +1,30 @@
+<edu.ucsc.cross.jheq.core.feature.FigureDefinition>
+  <width>800</width>
+  <height>600</height>
+  <mainTitle>Bouncing Ball Example</mainTitle>
+  <content>
+    <edu.ucsc.cross.jheq.core.app.JavaHyEQTask-array>
+      <edu.ucsc.cross.jheq.core.feature.ChartConstructor>
+        <xAxisVariable>Time</xAxisVariable>
+        <yAxisVariable>yPosition</yAxisVariable>
+          <yAxisTitle>Y Position</yAxisTitle>
+        <displayLegend>false</displayLegend>
+        <type>LINE</type>
+      </edu.ucsc.cross.jheq.core.feature.ChartConstructor>
+    </edu.ucsc.cross.jheq.core.app.JavaHyEQTask-array>
+    <edu.ucsc.cross.jheq.core.app.JavaHyEQTask-array>
+      <edu.ucsc.cross.jheq.core.feature.ChartConstructor>
+        <xAxisVariable>Time</xAxisVariable>
+        <yAxisVariable>yVelocity</yAxisVariable>
+        <mainTitle>Sub Title</mainTitle>
+         <yAxisTitle>Y Velocity</yAxisTitle>
+        <displayLegend>false</displayLegend>
+        <type>LINE</type>
+      </edu.ucsc.cross.jheq.core.feature.ChartConstructor>
+    </edu.ucsc.cross.jheq.core.app.JavaHyEQTask-array>
+  </content>
+  <displayInWindow>true</displayInWindow>
+  <filePath>null</filePath>
+  <fileFormat>PDF</fileFormat>
+  <rendererFilePath>null</rendererFilePath>
+</edu.ucsc.cross.jheq.core.feature.FigureDefinition>

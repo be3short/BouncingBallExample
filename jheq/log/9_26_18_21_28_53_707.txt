@@ -1,0 +1,8 @@
+[21:28:53.734][info] Environment started  [325/717 mB]
+[21:28:53.891][info] status: 0.00%  complete : sim time = 0.00 : jumps = 0  [330/717 mB]
+[21:28:53.993][info] status: 10.00%  complete : sim time = 1.00 : jumps = 1  [330/717 mB]
+[21:28:54.036][info] status: 20.02%  complete : sim time = 2.00 : jumps = 3  [330/717 mB]
+[21:28:54.054][info] status: 30.02%  complete : sim time = 3.00 : jumps = 6  [330/717 mB]
+[21:28:54.069][info] status: 55.00%  complete : sim time = 4.00 : jumps = 11  [330/717 mB]
+[21:28:54.094][info] Environment stopped, total runtime = 0.3870529370033182 seconds  [340/717 mB]
+[21:28:54.094][info] executing task [0] with no arguments  [340/717 mB]
