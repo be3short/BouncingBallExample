@@ -30,7 +30,7 @@ dependencies {
 
 jar {
   	manifest { 
-	attributes "Main-Class": 'edu.ucsc.cross.jheq.core.app.JavaHyEQExecute'
+	attributes "Main-Class": 'edu.ucsc.cross.jheq.application.JHEQToolbox',version: '1.0.0'
   }  
 
   from {

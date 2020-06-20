@@ -1,20 +1,19 @@
 
 package bouncingball;
 
-import edu.ucsc.cross.jheq.core.model.JumpMap;
-import edu.ucsc.cross.jheq.core.model.Variables;
-import edu.ucsc.cross.jheq.core.object.NoInput;
+import edu.ucsc.cross.jheq.model.HybridSystem;
+import edu.ucsc.cross.jheq.model.JumpMap;
 
 /**
  * Jump map implementation
  */
-public class G implements JumpMap<State, NoInput> {
+public class G implements JumpMap<State> {
 
 	@Override
-	public void evaluateG(State x, State x_plus, NoInput u, Variables vars) {
+	public void evaluateG(State x, State x_plus, HybridSystem sys) {
 
 		// get parameters
-		Parameters parameters = vars.get(Parameters.class);
+		Parameters parameters = sys.variables().get(Parameters.class);
 		x_plus.yPosition = 0.0;
 		x_plus.yVelocity = -x.yVelocity * parameters.restitutionCoefficient;
 	}

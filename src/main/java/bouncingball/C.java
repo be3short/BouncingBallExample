@@ -1,20 +1,18 @@
 
 package bouncingball;
 
-import edu.ucsc.cross.jheq.core.model.FlowSet;
-import edu.ucsc.cross.jheq.core.model.Variables;
-import edu.ucsc.cross.jheq.core.object.NoInput;
+import edu.ucsc.cross.jheq.model.FlowSet;
+import edu.ucsc.cross.jheq.model.HybridSystem;
 
 /**
  * Flow set implementation
  */
-public class C implements FlowSet<State, NoInput> {
+public class C implements FlowSet<State> {
 
 	@Override
-	public boolean evaluateC(State x, NoInput u, Variables vars) {
+	public boolean evaluateC(State x, HybridSystem sys) {
 
-		boolean flow = x.yPosition > 0.0 || ((x.yPosition == 0.0) && (x.yVelocity >= 0));
-		;
+		boolean flow = x.yPosition >= 0.0;
 		return flow;
 	}
 }

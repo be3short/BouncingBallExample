@@ -1,0 +1,21 @@
+<edu.ucsc.cross.jheq.core.feature.ObjectGenerator>
+  <baseStructureClass>bouncingball.Parameters</baseStructureClass>
+  <variableMap>
+    <entry>
+      <string>gravityConstant</string>
+      <edu.ucsc.cross.jheq.core.variable.RandomVariable>
+        <max>9.81</max>
+        <min>9.81</min>
+      </edu.ucsc.cross.jheq.core.variable.RandomVariable>
+    </entry>
+    <entry>
+      <string>restitutionCoefficient</string>
+      <edu.ucsc.cross.jheq.core.variable.RandomVariable>
+        <max>0.9</max>
+        <min>0.9</min>
+      </edu.ucsc.cross.jheq.core.variable.RandomVariable>
+    </entry>
+  </variableMap>
+  <filePathToLoadFrom>null</filePathToLoadFrom>
+  <objectName>Parameters</objectName>
+</edu.ucsc.cross.jheq.core.feature.ObjectGenerator>

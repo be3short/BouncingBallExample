@@ -1,7 +1,7 @@
 
 package bouncingball;
 
-import edu.ucsc.cross.jheq.core.object.DataStructure;
+import edu.ucsc.cross.jheq.object.DataStructure;
 
 /**
  * Parameter data structure implementation that will be included in the
@@ -22,10 +22,8 @@ public class Parameters extends DataStructure {
 	/**
 	 * Construct the parameters of the bouncing ball environment
 	 * 
-	 * @param restitution_coefficient
-	 *            determines energy absorbed at each bounce
-	 * @param gravity_constant
-	 *            defines acceleration due to gravity
+	 * @param restitution_coefficient determines energy absorbed at each bounce
+	 * @param gravity_constant        defines acceleration due to gravity
 	 */
 	public Parameters(double restitution_coefficient, double gravity_constant) {
 

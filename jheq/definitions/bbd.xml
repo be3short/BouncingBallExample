@@ -1,0 +1,23 @@
+<edu.ucsc.cross.jheq.builder.ContentBuilder>
+  <functionCallLabel>bbd.xml</functionCallLabel>
+  <globalVariableBuilderMap/>
+  <systemBuilderMap>
+    <entry>
+      <string>systemKey</string>
+      <edu.ucsc.cross.jheq.builder.SystemBuilder>
+        <importFilePath>resources\definitions\bbd/systemKey.xml</importFilePath>
+      </edu.ucsc.cross.jheq.builder.SystemBuilder>
+    </entry>
+  </systemBuilderMap>
+  <vertexSet>
+    <string>systemKey</string>
+  </vertexSet>
+  <adjacencyMatrix>
+    <int-array>
+      <int>0</int>
+    </int-array>
+  </adjacencyMatrix>
+  <postProcessingTaskFilePaths>
+    <string></string>
+  </postProcessingTaskFilePaths>
+</edu.ucsc.cross.jheq.builder.ContentBuilder>

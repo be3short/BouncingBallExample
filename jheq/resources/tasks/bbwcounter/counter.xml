@@ -1,0 +1,27 @@
+<edu.ucsc.cross.jheq.core.feature.SystemGenerator>
+  <taskInfo>
+    <functionCallLabel>edu.ucsc.cross.jheq.core.app.JavaHyEQTaskInfo_1540313586938</functionCallLabel>
+  </taskInfo>
+  <stateGen>
+    <baseStructureClass>eventcounter.State</baseStructureClass>
+    <variableMap>
+      <entry>
+        <string>eventCount</string>
+        <edu.ucsc.cross.jheq.core.variable.RandomVariable>
+          <max>0.0</max>
+          <min>0.0</min>
+        </edu.ucsc.cross.jheq.core.variable.RandomVariable>
+      </entry>
+    </variableMap>
+    <filePathToLoadFrom>null</filePathToLoadFrom>
+    <objectName>State</objectName>
+  </stateGen>
+  <paramGen/>
+  <sharedParams>
+    <string>bbParams</string>
+  </sharedParams>
+  <flowMap class="eventcounter.F"/>
+  <jumpMap class="eventcounter.G"/>
+  <flowSet class="eventcounter.C"/>
+  <jumpSet class="eventcounter.D"/>
+</edu.ucsc.cross.jheq.core.feature.SystemGenerator>

@@ -1,0 +1,21 @@
+<edu.ucsc.cross.jheq.builder.FigureBuilder>
+  <display>false</display>
+  <width>500</width>
+  <height>500</height>
+  <mainTitle>Main Title</mainTitle>
+  <content>
+    <edu.ucsc.cross.jheq.function.JHEQFeature-array>
+      <edu.ucsc.cross.jheq.builder.ChartBuilder>
+        <xAxisVariable>Time</xAxisVariable>
+        <yAxisVariable>value</yAxisVariable>
+        <chartTitle>Sub Title</chartTitle>
+        <xAxisTitle>xAxis Label</xAxisTitle>
+        <yAxisTitle>yAxis Label</yAxisTitle>
+        <displayLegend>true</displayLegend>
+        <type>LINE</type>
+        <customChartPath>null</customChartPath>
+      </edu.ucsc.cross.jheq.builder.ChartBuilder>
+    </edu.ucsc.cross.jheq.function.JHEQFeature-array>
+  </content>
+  <rendererFilePath>null</rendererFilePath>
+</edu.ucsc.cross.jheq.builder.FigureBuilder>

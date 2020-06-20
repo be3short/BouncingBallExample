@@ -1,0 +1,39 @@
+<edu.ucsc.cross.jheq.core.feature.FigureDefinition>
+  <taskInfo>
+    <functionCallLabel>bb_w_counter_figure</functionCallLabel>
+  </taskInfo>
+  <width>1200</width>
+  <height>800</height>
+  <mainTitle>Bouncing Ball with Event Counter</mainTitle>
+  <content>
+    <edu.ucsc.cross.jheq.core.app.JavaHyEQTask-array>
+      <edu.ucsc.cross.jheq.core.feature.ChartConstructor>
+        <taskInfo>
+          <functionCallLabel>edu.ucsc.cross.jheq.core.app.JavaHyEQTaskInfo_1540302677341</functionCallLabel>
+        </taskInfo>
+        <xAxisVariable>Time</xAxisVariable>
+        <yAxisVariable>yPosition</yAxisVariable>
+        <displayLegend>true</displayLegend>
+        <type>LINE</type>
+        <customChartPath>null</customChartPath>
+      </edu.ucsc.cross.jheq.core.feature.ChartConstructor>
+    </edu.ucsc.cross.jheq.core.app.JavaHyEQTask-array>
+     <edu.ucsc.cross.jheq.core.app.JavaHyEQTask-array>
+      <edu.ucsc.cross.jheq.core.feature.ChartConstructor>
+        <taskInfo>
+          <functionCallLabel>edu.ucsc.cross.jheq.core.app.JavaHyEQTaskInfo_1540302677341</functionCallLabel>
+        </taskInfo>
+        <xAxisVariable>Time</xAxisVariable>
+        <yAxisVariable>eventCount</yAxisVariable>
+        <displayLegend>true</displayLegend>
+        <type>LINE</type>
+        <customChartPath>null</customChartPath>
+      </edu.ucsc.cross.jheq.core.feature.ChartConstructor>
+    </edu.ucsc.cross.jheq.core.app.JavaHyEQTask-array>
+  </content>
+  <displayInWindow>true</displayInWindow>
+  <filePath>null</filePath>
+  <fileFormat>PDF</fileFormat>
+  <rendererFilePath>null</rendererFilePath>
+  <showGlobalLegend>false</showGlobalLegend>
+</edu.ucsc.cross.jheq.core.feature.FigureDefinition>

@@ -1,7 +1,7 @@
 
 package bouncingball;
 
-import edu.ucsc.cross.jheq.core.object.DataStructure;
+import edu.ucsc.cross.jheq.object.DataStructure;
 
 /**
  * state data structure implementation
@@ -21,10 +21,8 @@ public class State extends DataStructure {
 	/**
 	 * Construct the state with the given initial conditions
 	 * 
-	 * @param y_position
-	 *            initial y position
-	 * @param y_velocity
-	 *            initial y velocity
+	 * @param y_position initial y position
+	 * @param y_velocity initial y velocity
 	 */
 	public State(double y_position, double y_velocity) {
 
@@ -35,10 +33,8 @@ public class State extends DataStructure {
 	/**
 	 * Construct the state with the given initial conditions
 	 * 
-	 * @param y_position
-	 *            initial y position
-	 * @param y_velocity
-	 *            initial y velocity
+	 * @param y_position initial y position
+	 * @param y_velocity initial y velocity
 	 */
 	public State() {
 

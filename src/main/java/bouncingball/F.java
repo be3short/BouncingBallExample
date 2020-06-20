@@ -1,22 +1,20 @@
 
 package bouncingball;
 
-import edu.ucsc.cross.jheq.core.model.FlowMap;
-import edu.ucsc.cross.jheq.core.model.Variables;
-import edu.ucsc.cross.jheq.core.object.NoInput;
+import edu.ucsc.cross.jheq.model.FlowMap;
+import edu.ucsc.cross.jheq.model.HybridSystem;
 
 /**
  * Flow map implementation
  */
-public class F implements FlowMap<State, NoInput> {
+public class F implements FlowMap<State> {
 
 	@Override
-	public void evaluateF(State x, State x_dot, NoInput u, Variables vars) {
+	public void evaluateF(State x, State x_dot, HybridSystem sys) {
 
-		// get parameters
-		Parameters parameters = vars.get(Parameters.class);
+		Parameters parameters = sys.variables().get(Parameters.class);
 		x_dot.yPosition = x.yVelocity;
-		x_dot.yVelocity = -parameters.gravityConstant;
+		x_dot.yVelocity = -parameters.gravityConstant;// parameters.gravityConstant;
 
 	}
 }

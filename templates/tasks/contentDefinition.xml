@@ -1,0 +1,32 @@
+<edu.ucsc.cross.jheq.builder.ContentDefinition>
+  <globalVariableClassMap>
+    <entry>
+      <string>variableKey</string>
+      <string>edu.ucsc.cross.jheq.core.object.DataStructure</string>
+    </entry>
+  </globalVariableClassMap>
+  <systemDefinitionMap>
+    <entry>
+      <string>systemKey</string>
+      <edu.ucsc.cross.jheq.builder.SystemDefinition>
+        <flowMapClass>F</flowMapClass>
+        <jumpMapClass>G</jumpMapClass>
+        <flowSetClass>C</flowSetClass>
+        <jumpSetClass>D</jumpSetClass>
+        <stateClass>State</stateClass>
+        <localVariables>
+          <string></string>
+        </localVariables>
+        <globalVariables>
+          <string></string>
+        </globalVariables>
+        <accessKeys>
+          <object/>
+        </accessKeys>
+      </edu.ucsc.cross.jheq.builder.SystemDefinition>
+    </entry>
+  </systemDefinitionMap>
+  <postProcessingTaskFilePaths>
+    <string></string>
+  </postProcessingTaskFilePaths>
+</edu.ucsc.cross.jheq.builder.ContentDefinition>

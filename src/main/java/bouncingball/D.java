@@ -1,21 +1,18 @@
 
 package bouncingball;
 
-import edu.ucsc.cross.jheq.core.model.JumpSet;
-import edu.ucsc.cross.jheq.core.model.Variables;
-import edu.ucsc.cross.jheq.core.object.NoInput;
+import edu.ucsc.cross.jheq.model.HybridSystem;
+import edu.ucsc.cross.jheq.model.JumpSet;
 
 /**
  * Jump set implementation
  */
-public class D implements JumpSet<State, NoInput> {
+public class D implements JumpSet<State> {
 
 	@Override
-	public boolean evaluateD(State x, NoInput u, Variables vars) {
+	public boolean evaluateD(State x, HybridSystem sys) {
 
 		boolean jump = x.yPosition <= 0.0 && x.yVelocity <= 0.0;
-		;
-		// add logic to determine if (x,u) is in D
 		return jump;
 	}
 

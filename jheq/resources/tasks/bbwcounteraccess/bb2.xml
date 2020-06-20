@@ -1,0 +1,43 @@
+<edu.ucsc.cross.jheq.core.feature.SystemGenerator>
+  <taskInfo>
+    <functionCallLabel>edu.ucsc.cross.jheq.core.app.JavaHyEQTaskInfo_1540318679776</functionCallLabel>
+  </taskInfo>
+  <stateGen>
+    <baseStructureClass>bouncingball.State</baseStructureClass>
+    <variableMap>
+      <entry>
+        <string>yPosition</string>
+        <edu.ucsc.cross.jheq.core.variable.RandomVariable>
+          <max>2.0</max>
+          <min>5.0</min>
+        </edu.ucsc.cross.jheq.core.variable.RandomVariable>
+      </entry>
+      <entry>
+        <string>yVelocity</string>
+        <edu.ucsc.cross.jheq.core.variable.RandomVariable>
+          <max>0.0</max>
+          <min>0.0</min>
+        </edu.ucsc.cross.jheq.core.variable.RandomVariable>
+      </entry>
+    </variableMap>
+    <filePathToLoadFrom>null</filePathToLoadFrom>
+    <objectName>Bouncing Ball</objectName>
+  </stateGen>
+  <paramGen/>
+ 
+  <sharedParams>
+    <string>bbParams2</string>
+  </sharedParams>
+  <flowMap class="bouncingball.F"/>
+  <jumpMap class="bouncingball.G"/>
+  <flowSet class="bouncingball.C"/>
+  <jumpSet class="bouncingball.D"/>
+  <outputs>
+    <bouncingball.Output>
+      <event>false</event>
+    </bouncingball.Output>
+  </outputs>
+  <accessKeys>
+    <string>BouncingBall</string>
+  </accessKeys>
+</edu.ucsc.cross.jheq.core.feature.SystemGenerator>
